@@ -34,7 +34,7 @@ L'imagerie utilisée suit cette logique:
 - "-" pour un chemin, blanc si on peut y construire une route, de la couleur du joueur propriétaire si une route y est déjà construite
 - "V" pour l'emplacement des voleurs
 
-  Les images représentent les cases de ressources, et les nombres dessus la valeur à faire aux dés pour que ces cases produisent.
+Les images représentent les cases de ressources, et les nombres dessus la valeur à faire aux dés pour que ces cases produisent.
 ![imgbétail](https://github.com/user-attachments/assets/55f2e1d4-13f7-43a2-9ce8-cfc74ecaa0af)
 Bétail
 
