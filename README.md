@@ -37,19 +37,24 @@ L'imagerie utilisée suit cette logique:
   Les images représentent les cases de ressources, et les nombres dessus la valeur à faire aux dés pour que ces cases produisent.
 ![imgbétail](https://github.com/user-attachments/assets/55f2e1d4-13f7-43a2-9ce8-cfc74ecaa0af)
 Bétail
+
 ![imgblé](https://github.com/user-attachments/assets/a1c08ce3-40a6-4e2b-b400-e1a8687e1ee4)
 Blé
+
 ![imgbois](https://github.com/user-attachments/assets/ba440b7d-6822-4d0d-bc5d-a206e50c10cb)
 Bois
+
 ![imgbrique](https://github.com/user-attachments/assets/a6178b2c-4e91-43e5-9136-8fb4a9437e66)
 Brique
+
 ![imgpierre](https://github.com/user-attachments/assets/3b224002-de15-4df4-ab66-b240abaadf8f)
 Pierre
+
 ![imgdesert](https://github.com/user-attachments/assets/a7ee1866-4035-407e-82da-96d1822fa5d1)
 Désert (vide de ressource)
 
 # Commandes
-  Pour construire une route, une colonie ou améliorer une colonie en ville, il suffit de cliquer sur l'emplacement correspondant à votre tour en respectant les règles de placement et ayant suffisement de ressources (sauf durant le placement initial, où deux colonies et deux routes peuvent être placées gratuitement)
-  Pour effectuer un échange avec la banque (4 ressources du même type données pour une reçue) il suffit de cliquer sur les icones de ressources sous le plateau de jeu: d'abord la ressource que vous donnez, puis celle que vous voulez recevoir.
-  Vous serez prévenu qu'il faut déplacer les voleurs par un message dans la console (encore une fois pas très ergonomique). Il vous suffira alors de cliquer sur la tuile de ressource où vous souhaitez que les voleurs se rendent (on rappelle qu'elle doit être adjacente à la dernière position des voleurs)
+- Pour construire une route, une colonie ou améliorer une colonie en ville, il suffit de cliquer sur l'emplacement correspondant à votre tour en respectant les règles de placement et ayant suffisement de ressources (sauf durant le placement initial, où deux colonies et deux routes peuvent être placées gratuitement)
+- Pour effectuer un échange avec la banque (4 ressources du même type données pour une reçue) il suffit de cliquer sur les icones de ressources sous le plateau de jeu: d'abord la ressource que vous donnez, puis celle que vous voulez recevoir.
+- Vous serez prévenu qu'il faut déplacer les voleurs par un message dans la console (encore une fois pas très ergonomique). Il vous suffira alors de cliquer sur la tuile de ressource où vous souhaitez que les voleurs se rendent (on rappelle qu'elle doit être adjacente à la dernière position des voleurs)
   Pour finir votre tour, appuyez sur entrée 
