@@ -668,8 +668,10 @@ class Jeu:
         return res
 
     def __init__(self):
-        # IA_MCTS(2, 500, 100, self)}
-        self.dicoJoueurs = {1: Joueur(1, self), 2: IA_aleatoire(2, self)}
+        # IA_MCTS(num = 2, pNbSimulations = 500, pNbGrainesTestees = 100, pJeu = self)
+        # IA_monteCarlo(num = 2, nbSimulations = 100, pJeu = self)
+        # IA_aleatoire(num = 2, pJeu = self)
+        self.dicoJoueurs = {1: Joueur(1, self), 2: IA_MCTS(num = 2, pNbSimulations = 500, pNbGrainesTestees = 100, pJeu = self)}
         self.MCTS_joue = False
         self.id_MCTS = 2 - 1
         self.MCTS_dicoEchangeDonne = {
@@ -1407,7 +1409,7 @@ class IA_MCTS(Joueur):
     c = 1
     b = 0.995
 
-    def __init__(self, num, pNbSimulations, pNbGrainesTestee, pJeu, modificateursScoresRessource={"brique": 1, "bois": 1, "pierre": 1, "blé": 1, "bétail": 1}):
+    def __init__(self, num, pNbSimulations, pNbGrainesTestees, pJeu, modificateursScoresRessource={"brique": 1, "bois": 1, "pierre": 1, "blé": 1, "bétail": 1}):
         """
         Initialisation de l'IA
         num: numero de joueur
@@ -1419,7 +1421,7 @@ class IA_MCTS(Joueur):
         self.estUneIA = True
         self.modificateursScoresRessource = modificateursScoresRessource
         self.nbSimulations = pNbSimulations
-        self.nbGraines = pNbGrainesTestee
+        self.nbGraines = pNbGrainesTestees
 
     def deplaceVoleur(self):
         """
